@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="section section-1">
+            <button id="primary">Бросить кубики</button>
+            <button id="first">Переброс №1</button>
+            <button id="second">Переброс №2</button>
+            <button id="third">Переброс №3</button>
+        </div>
+        <div class="section section-2">
+            <div class="img-control"><img id="cub-1" src="one.png" alt="" width="90%"></div>
+            <div class="img-control"><img id="cub-2" src="one.png" alt="" width="90%"></div>
+            <div class="img-control"><img id="cub-3" src="one.png" alt="" width="90%"></div>
+        </div>
+        <div class="section section-3">
+            <p>У оппонента выпало:</p>
+            <p id="opp-out"></p>
+        </div>
+    </div>
+    <div class="button-control">
+        <button id="result" type="submit">Конец игры</button>
+    </div>
+    <p id="result-out"></p>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="script.js"></script>
+</html>
